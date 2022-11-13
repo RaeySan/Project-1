@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sander Raeymaekers">
+    <title>Contact</title>
+</head>
+<body>
+    <hr>
+    <h1>Contact</h1>
+    <hr>
+    <ul>
+        <li><a href="index.html">Homepagina</a></li>
+        <li><a href="hobby.html">Hobby's / Interesses</a></li>
+        <li><a href="ervaring.html">Ervaring</a></li>
+        <li><a href="cv.html">Curriculum vitae</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <h2>Contactgegevens</h2>
+      <p>
+        Telefoonnummer: <a href="tel:+3249117xxxx">049117xxxx</a>
+      </p>
+      <p>
+        E-mail: <a href="mailto:sander.raeymaekers@email.com">sander.raeymaekers@email.com</a>
+      </p>
+      <p>
+        Adres: 2270 Herenthout
+      </p>
+      <h2>Stel uw vraag hier:</h2>
+    <form action="contact.html" method="POST">
+        <div>
+            <label for="naam">Naam: <input type="text" id="naam" name="naam" required></label>
+        </div>
+
+        <div>
+            <label for="email">Email: <input type="email" id="email" name="email" required></label>
+        </div>
+
+        <div>
+            <label for="onderwerp">Onderwerp: <input type="text" id="onderwerp" name="onderwerp" required></label>
+        </div>
+
+        <div>
+            <label for="vraag">Vraag: <textarea rows="5" id="vraag" name="vraag" required></textarea>
+            </label>
+        </div>
+
+        <div>
+            <input type="submit" value="Indienen">
+        </div>
+    </form>
+</body>
+</html>
